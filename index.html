@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.cdnfonts.com/css/ds-digital" rel="stylesheet">
+        <link rel="stylesheet" href="./font/digital-7/stylesheet.css">
+        <link rel="stylesheet" href="style.css">
+        <title>Calculatrice</title>
+    </head>
+    <body>
+
+        <section>
+            <div class="calculator">
+                <div class="screen">
+                    <div class="calcul">
+                        <p id="display"></p>
+                    </div>
+                    <div class="resultat">
+                        <p id="result"></p>
+                    </div>
+                </div>
+                <div class="container">
+                    <!-- Boutons -->
+                    <button value="2nd" id="sec">2nd</button>
+                    <button value="alpha" id="alpha" style="text-transform: lowercase;">α</button>
+                    <button value="ans" id="ans">ans</button>
+                    <button value="fx" class="fx">log</button>
+                    <button value="fx" class="fx">sqrt</button>
+                    
+                    <button value="(" class="parenthesis">(</button>
+                    <button value=")" class="parenthesis">)</button>
+                    <button value="fx" calc_fx="sin" class="fx">sin</button>
+                    <button value="fx" class="fx">cos</button>
+                    <button value="fx" class="fx">tan</button>
+
+                    <button value="fx" class="fx">LN</button>
+                    <button value="fx" class="fx">cbrt</button>
+                    <button value="fx" class="fx">asin</button>
+                    <button value="fx" class="fx">acos</button>
+                    <button value="fx" class="fx">atan</button>
+
+                    <button value="7">7</button>
+                    <button value="8">8</button>
+                    <button value="9">9</button>
+                    <button value="DEL" id="del">DEL</button>
+                    <button value="AC" id="clear">AC</button>
+
+                    
+                    <button value="4">4</button>
+                    <button value="5">5</button>
+                    <button value="6">6</button>
+                    <button value="+" class="operator">+</button>
+                    <button value="/" class="operator">/</button>
+                    
+                    <button value="1">1</button>
+                    <button value="2">2</button>
+                    <button value="3">3</button>
+                    <button value="*" class="operator">*</button>
+                    <button value="-" class="operator">-</button>
+
+                    <button value="e" style="text-transform: lowercase;">e</button>
+                    <button value="0">0</button>
+                    <button value=".">.</button>
+                    <button value="π" style="text-transform: lowercase;">π</button>
+                    <button value="=" class="operator" id="equals">=</button>
+                    
+                    <!-- Functions keys -->
+
+
+                </div>
+            </div>
+
+        </section>
+        
+        <script src="app.js"></script>
+    </body>
+</html>
